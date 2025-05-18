@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -n \"frontend,backend\" -c \"bgBlue,bgYellow\" \"npm run frontend\" \"npm run backend\"",
+    "frontend": "cd ../ && npm run dev",
+    "backend": "node server.js",
+    "add-sample-doctor": "node scripts/addSampleDoctor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "lottie-react": "^2.4.1",
+    "mongoose": "^8.12.1",
+    "multer": "^1.4.5-lts.2",
+    "pdfkit": "^0.17.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0"
+  }
+}
