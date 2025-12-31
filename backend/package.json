@@ -18,7 +18,7 @@
     "cors": "^2.8.5",
     "date-fns": "^4.1.0",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2",
+    "express": "^4.22.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.1",
     "lottie-react": "^2.4.1",
